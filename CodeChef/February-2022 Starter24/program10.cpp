@@ -56,9 +56,9 @@ int main(){
                 cout<<a+(a-1)<<endl;
             }
             else{
-                int nonInfected = a-b; //2
-                int infected = b;//3
-                int social = infected+1;//4
+                int nonInfected = a-b; 
+                int infected = b;
+                int social = infected+1;
                 int n = ((social+(social-1))+(nonInfected-1));
                 cout<<n<<endl;
             }
